@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% block title %}
+  RPG Town and Shopping District
+{% endblock %}
+
+{% block main %}
+
+<div class='Size'>
+      <table>
+        <thead>
+          <tr>
+            <th>Item Name</th>
+            <th>Cost (Standard)</th>
+            <th>Cost (Expensive)</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for inventory in inventory %}
+            <th>{{ inventory['ShopType'] }}
+            <tr>
+              <td>{{ inventory['ItemName'] }}</td>
+              <td>{{ inventory['CostStandard'] }}</td>
+              <td>{{ inventory['CostExpensive'] }}</td>
+            </tr>
+          {% endfor %}
+        </table>
+      </div>
+
+{% endblock %}

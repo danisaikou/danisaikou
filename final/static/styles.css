@@ -1,0 +1,52 @@
+html {
+    background: url("/images/mapd20.jpg") no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+     }
+
+  /* heading stuff */
+
+
+  /* body stuff */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+th, td {
+    text-align: left;
+    padding: 16px;
+}
+
+tr:nth-child(even) {
+    background-color: #edebf0;
+}
+
+
+  /* Fonts */
+  @font-face {
+      font-family: 'draconisregular';
+      src: url("/font/draconis-jrw6b-webfont.woff2") format('woff2'),
+           url("/font/draconis-jrw6b-webfont.woff") format('woff');
+      font-weight: normal;
+      font-style: normal;
+  }
+  @font-face {
+      font-family: 'unzialishregular';
+      src: url("/font/goblin/unzialish-nrxo-webfont.woff2") format('woff2'),
+           url("/font/goblin/unzialish-nrxo-webfont.woff") format('woff');
+      font-weight: normal;
+      font-style: normal;
+  }
+  @font-face {
+      font-family: 'breathe_fire_iiiregular';
+      src: url("/font/breathefire/breathefireiii-pklob-webfont.woff2") format('woff2'),
+           url("/font/breathefire/breathefireiii-pklob-webfont.woff") format('woff');
+      font-weight: normal;
+      font-style: normal;
+  }
+

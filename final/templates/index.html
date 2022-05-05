@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block title %}
+  RPG Town and Shopping District
+{% endblock %}
+
+{% block main %}
+
+<!-- Size Input from User -->
+
+  <form action="/newtown/" method="post">
+  <h2> Size Selection </h2>
+    <input type="radio" id="Rural" name="Size" value="{{ request.form["towns"] }}">
+    <label for="Village">Village</label><br>
+    <input type="radio" id="Urban" name="Size" value="Town">
+    <label for="Town">Town</label><br>
+    <input type="radio" id="Premium" name="Size" value="City">
+    <label for="City">City</label><br><br>
+  <input type="submit" name ="form" value="Submit"/>
+  <input type="reset">
+  </form>
+  <br>
+  <br>
+
+
+{% endblock %}

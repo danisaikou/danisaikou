@@ -1,0 +1,20 @@
+https://www.programiz.com/python-programming/datetime
+https://www.w3schools.com/sql
+https://www.w3schools.com/python/default.asp
+https://careerkarma.com/blog/python-syntaxerror-return-outside-function/
+https://www.c-sharpcorner.com/article/create-python-flask-web-application-and-display-sql-records-in-browser/
+
+To convert the excel file I set up into a db:
+    https://sqlizer.io/
+
+Original shop inventory that I modified for my purposes:
+    https://www.reddit.com/r/DMAcademy/comments/9ebbdt/updated_more_inclusive_5e_dd_shops_catalog_v18/
+    author /u/Inalisk who in turn referenced doc created by u/jrobharing
+
+Borrowed some of the flask setup from the finance pset
+
+Navbar
+    https://getbootstrap.com/docs/4.0/components/navbar/
+
+Database fun
+    https://www.digitalocean.com/community/tutorials/how-to-use-an-sqlite-database-in-a-flask-application
